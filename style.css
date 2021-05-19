@@ -1,0 +1,258 @@
+header{
+    color: black;
+    text-align: center;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif  ;
+    background-color: white;
+	text-align: right;
+    background-image:url(Brickwall.jpg);
+    background-repeat: repeat;
+	margin: 0px;
+	height: 150px;
+		
+	
+}
+
+body{
+    
+    background-color: #F7F4E9;
+    background-size: 2000px 1000px;
+    background-color:white;
+}
+
+h1{
+    color: white;
+    text-align: center;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    background: #3399ff;
+    width:20%;
+    margin-left: auto;
+    margin-right: auto;
+    
+}
+
+h2{
+    color: black;
+    text-align: center;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    background: bisque;
+    width:20%;
+    margin-left: auto;
+    margin-right: auto;
+
+
+}
+
+h3{
+    color: white;
+    text-align: center;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    background: #3399ff;
+    width:20%;
+    margin-left: auto;
+    margin-right: auto;
+    
+}
+
+h6{
+    text-align: center;
+    color:white;
+
+}
+
+table#tab{
+    border: solid black 10px;
+    border-collapse: collapse;
+    margin-left: auto;
+    margin-right: auto;
+    
+}
+th{
+    color: blue;
+    font-size: 24px;
+}
+
+th#th{
+    text-align: center;
+    color: red;
+    background: #F7F4E9;
+    padding: 20px;
+}
+
+td#td{
+    text-align: center;
+    color: white;
+    background: #3399ff;
+    padding: 20px;
+}
+
+#tabt{
+    width:2%;
+    margin-left: auto;
+    margin-right: auto;
+    border: 0px solid;
+    line-height: 250%;
+}
+
+#timg{
+    width:2%;
+    margin-left: auto;
+    margin-right: auto;
+    border: 0px solid;
+    text-align: center;
+    line-height: 500%;
+}
+
+#tperson{
+    width:2%;
+    margin-left: auto;
+    margin-right: auto;
+    border: 0px solid;
+    line-height: 250%;
+}
+
+#link1{
+    background-color: red;
+    box-shadow: 0 5px 0 darkred;
+    color: white;
+    padding: 1em 1.5em;
+    position: relative;
+    text-decoration: none;
+    text-transform: uppercase;
+    height: 75px;
+    width: 75px;
+    border-radius: 50%;
+    display: inline-block
+}
+#link1:hover {
+    background-color: #ce0606;
+    cursor: pointer;
+  }
+  
+#link1:active {
+    box-shadow: none;
+    top: 5px;
+  }
+
+#link2{
+    background-color: red;
+    box-shadow: 0 5px 0 darkred;
+    color: white;
+    padding: 1em 1.5em;
+    position: relative;
+    text-decoration: none;
+    text-transform: uppercase;
+    height: 75px;
+    width: 75px;
+    border-radius: 50%;
+    display: inline-block
+}
+
+
+#link2:hover {
+    background-color: #ce0606;
+    cursor: pointer;
+  }
+  
+#link2:active {
+    box-shadow: none;
+    top: 5px;
+}
+
+footer{
+    text-align: center;
+    position: relative;
+    top:10px;
+    left:10px;
+    background-color:bisque;
+    border-radius: 5px;
+    width: 60px;
+    padding: 2px;
+    right: auto;
+
+}
+
+ul{
+    text-align: center;
+    color: white;
+    background: #F7F4E9;
+    padding: 20px;
+    width:80%;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+ul li{
+    text-align: center;
+    color: white;
+    background: #3399ff;
+    padding: 20px;
+
+}
+
+
+#about{
+    text-align: center;
+    color: black;
+    
+    
+}
+
+p{
+    text-align: center;
+    color: white;
+    background: #3399ff;
+    padding: 20px;
+    width:60%;
+    margin-left: auto;
+    margin-right: auto;
+    
+    
+}
+
+#form{
+    text-align: center;
+    color: blackS;
+    font-size: large;
+
+}
+
+#resume{
+    background-color: red;
+    box-shadow: 0 5px 0 darkred;
+    color: white;
+    padding: 1em 1.5em;
+    position: relative;
+    text-decoration: none;
+    text-transform: uppercase;
+}
+
+a:hover{
+ 
+    background-color: #555;
+    cursor: pointer;
+  
+}
+
+  a:active {
+    background-color: black;
+  }
+
+  a:visited {
+    background-color: #ccc;
+    color: black;
+  }
+  
+
+#img{
+    border: 1 dashed red;
+    border-radius: 10px;
+    text-align: center;
+    color: white;
+    background: #3399ff;
+    padding: 20px;
+    width:40%;
+    margin-left: auto;
+    margin-right: auto;
+    
+    
+}
