@@ -3,9 +3,16 @@
 <head>
 	<meta charset="utf-8" />
 	<title>Derek Dunton Webpage</title>
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.1.1/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-F3w7mX95PdgyTmZZMECAngseQB83DfGTowi0iMjiWaeVhAn4FJkqJByhZMI3AhiU" crossorigin="anonymous">
 	<link rel="stylesheet" type="text/css" href="style.css" />
+
+    <style type="text/css">
+       
+
+
+    </style>
 	
-</head>
+</head> 
 
 <body>
     <header>
@@ -38,7 +45,7 @@
         </tr>
         <!--<p>-->
             <td id="tabt">
-            I'm 24 years old from Corpus Christi, Texas, with a bachelor’s degree in mathematics and science in computer science.
+            I'm 24 years old from Corpus Christi, Texas, with a bachelor’s degree in science in computer science.
             I created this website to compile all of my projects, achievements, and links all in one easy place to access. 
             I started as a graphic deigner and became a freelancer graphic designer for a year. In that year, I began editing videos for clients. 
             By the time I was able to attend college, I was started to get into computer programming. Where I learned my first language C++ at Del Mar.
@@ -46,7 +53,7 @@
             <br>
             <br>
             <br>
-            <a id ="resume"href="resume/Dereks Resume.pdf">DOWNLOAD RESUME</a>
+            <a id ="resume"href="../webpage/resume/DereksResume.pdf"><button type="button" class="btn btn-danger"> DOWNLOAD RESUME </button></a>
         
         </td>
         <td id="timg">
@@ -59,13 +66,17 @@
             Age: 24<br>
             Phone: (361)445-7552<br>
             Email: Duntonderek22@gmail.com<br>
-            Address: 2730 Auther St.<br>
-            <p id="link1">
-            <a href="https://github.com/DaricD" title="GitHub Link">Github link</a><br>
-            </p>   
-            <p id="link2">
-            <a href="https://www.linkedin.com/in/derek-dunton-6a4160207/" title="Linkedin">Linkedin Link</a>
-            </p>
+            Address: 2730 Auther St. Corpus Christi, Texas<br>
+ 
+            <div class="container-fluid">
+                <div class="row">
+                    <div class="pull-left-sm-8 text-center">
+                        <a href="https://github.com/DaricD"> <button type="button" class="btn btn-primary">GitHub Link</button></a>
+                        <a href="https://www.linkedin.com/in/derek-dunton-6a4160207/""> <button type="button" class="btn btn-primary">Linkedin Link</button></a>
+                    </div>
+                </div>
+            </div>
+
             <!--<footer>
                 <a href="https://github.com/DaricD" title="GitHub Link">Github link</a><br>
                 <a href="https://www.linkedin.com/in/derek-dunton-6a4160207/" title="Linkedin">Linkedin Link</a>
@@ -84,15 +95,15 @@
                     <th id="th">Programs</th>
                 </tr>
                 <tr>
-                    <td id="td"><a href="/Graphics/photoshops.html">Photoshops</a></td>
-                    <td id="td"><a href="/Graphics/videoediting.html">Premier Pro</a></td> 
-                    <td id="td"><a href="/Graphics/programs.html">Binary Tree</a></td>  
+                    <td id="td"><a href="../webpage/Graphics/photoshops.html"> <button type="button" class="btn btn-primary">Photoshops</button></a></td>
+                    <td id="td"><a href="../webpage/Graphics/videoediting.html"> <button type="button" class="btn btn-primary">Premier Pro</button></a></td> 
+                    <td id="td"><a href="../webpage/Graphics/programs.html"> <button type="button" class="btn btn-primary">Binary Tree</button></a></td>  
                 </tr>
 
                 <tr>
-                    <td id="td">illustrator</td>
-                    <td id="td">Sample Text</td>
-                    <td id="td"><a href="../Graphics/Programs/AutoBotC++.txt">Auto Bot Program</a></td>
+                    <td id="td"><button type="button" class="btn btn-primary">Illustrator</button></td>
+                    <td id="td"><button type="button" class="btn btn-primary">Sample Text</button></td>
+                    <td id="td"><a href="../webpage/Graphics/AutoBotProgram.html"><button type="button" class="btn btn-primary">Auto Bot Program</button></a></td>
                 </tr>
             </table>   
         
@@ -109,16 +120,36 @@
         <!--</p>--->
     </div>
  
-    <div id="form"> 
-        <form action="mailto:duntonderek22@gmail.com?subject=Feedback-Derek" method="POST" enctype="multipart/form-data" name="EmailForm">
-            Email:
-            <input type="email"></br>
-            <textarea name="comments" row="10" cols="48">Leave feedback here...</textarea></br>
-            <input type="submit" value="Submit">
+    <div Class="container mt-5"> 
+        <h2>Contact me!</h2>
+        <form class ="row g-3" action="https://formsubmit.com/Duntonderek21@gmail.com" method="POST" enctype="multipart/form-data" name="EmailForm">
+            <div class = "col-md-6">
+                <label for ="firstName" class="form-label">First Name</label>
+                <input type="text" class="form-control" id="firstName" required>
+            </div>
+            <div class = "col-md-6">
+                <label for="lastName" class="form-label">Last Name</label>
+                <input type="text" class="form-control" id="lastname" required>
+            </div>
+            <div class="col-md-8">
+                <label for="emailInfo" class="form-label">E-mail</label>
+                <input type="email" class="form-control" id="emailInfo" placeholder="Example@gmail.com" required>
+            </div>
+            <div class="col-md-4">
+                <label for="phoneNumber" class="form-label">Phone Number</label>
+                <input type="text" class="form-control" id="phoneNumber" placeholder=+1 (361) 234-6543>
+            </div>
+            <div class="col-md-12">
+                <label for="comments" class="form-label">Comments, questions?</label>
+                <textarea class="form-control" id="comments" rows="3" required></textarea>
+            </div>
+            <div class="col-md-12">
+                <button type="submit" class="btn btn-primary">Submit</button>
+            </div>
         </form>
     </div>
 
-
+ 
     <h6>Contact info: 
         Email: Duntonderek22@gmail.com</h6>
         
