@@ -27,7 +27,7 @@ h1{
     width:20%;
     margin-left: auto;
     margin-right: auto;
-    
+    font-size: clamp(1rem, 2rem, 50rem);
 }
 
 h2{
@@ -38,7 +38,7 @@ h2{
     width:20%;
     margin-left: auto;
     margin-right: auto;
-
+    font-size: clamp(30px, 5px, 30px);
 
 }
 
@@ -50,6 +50,7 @@ h3{
     width:20%;
     margin-left: auto;
     margin-right: auto;
+    font-size: clamp(20px, 5px, 30px);
     
 }
 
@@ -67,8 +68,12 @@ table#tab{
     
 }
 th{
-    color: blue;
-    font-size: 24px;
+    
+    margin-left: auto;
+    background: bisque;
+    text-align: center;
+    color: black;
+    font-size: clamp(1px,35px,60px);
 }
 
 th#th{
@@ -153,19 +158,19 @@ ul li{
 
 p{
     text-align: center;
-    color: white;
-    background: #3399ff;
-    padding: 20px;
-    width:60%;
+    color: black;
+    
+    padding: 1em;
+    
     margin-left: auto;
     margin-right: auto;
-    
+    font-size: clamp(px,35px,60px);
     
 }
 
 #form{
     text-align: center;
-    color: blackS;
+    color: black ;
     font-size: large;
 
 }
@@ -202,4 +207,3 @@ a:hover{
     
     
 }
-
